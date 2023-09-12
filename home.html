@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conferences</title>
+    <script src="https://cdn.jsdelivr.net/npm/suneditor@2.45.1/dist/suneditor.min.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/suneditor@2.45.1/dist/css/suneditor.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-image: url("https://icc2023.ieee-icc.org/sites/icc2023.ieee-icc.org/files/conferences2_wallpaper/ccncgradient.jpg");
+      }
+      navbar ul, navbar li {
+        list-style: none;
+        list-style-type: none;
+      }
+      .container {
+        max-width: 1400px;
+        margin: 0 auto;
+      }
+      .logo{
+        object-fit: contain;
+        width: 100%;
+        height: 100%;
+        image-rendering: -webkit-optimize-contrast;
+        background-image: none;
+      }
+      header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #fefefe;
+        padding: 30px;
+      }
+      .header__left {
+        display: flex;
+        align-items: center;
+      }
+      .header__left-logo, .header__right-logo {
+        width: 200px;
+        height: 100px
+      }
+      .header__left-info {
+        margin-left: 24px;
+        font-size: 24px;
+      }
+      .date {
+        margin-bottom: 8px;
+      }
+      .nav {
+        display: 'flex';
+      }
+      .nav-list{
+        display: flex;
+      }
+      .nav-list__item {
+        position: relative;
+        cursor: pointer;
+        background-color: #005f98;
+        color:#fefefe;
+        text-transform: capitalize;
+        font-size: 16px;
+        border-right: 1px solid #fefefe;
+      }
+	  .nav-list__item a {
+        padding: 12px 24px;
+        display: inline-block ;
+      }
+      .nav-list__item:hover {
+        background-color: #00aeef;
+      }
+      .hide-items {
+        display: none;
+        position: absolute;
+        z-index: 2;
+        background-color: #005f98;
+        top: 100%;
+        left: 0;
+        min-width: 200px;
+      }
+      .nav-list__item:hover .hide-items {
+        display: block !important;
+      }
+      .hide-items-dropdown {
+        text-transform: capitalize;
+        background-color: #005f98;
+      }
+      .hide-items-dropdown a{
+        display: block;
+        padding: 10px 15px;
+        font-size: 16px;
+      }
+      .hide-items-dropdown:hover {
+        background-color: #00aeef;
+      }
+      .nav-list__item a, .hide-items-dropdown a {
+        text-decoration: none;
+        color: #fefefe;
+      }
+    </style>
+  </head>
+  <body>
+   <div class="container">
+    <header id="header">
+      <div class="header__left">
+        <div class="header__left-logo">
+          <img class="logo" src="https://firebasestorage.googleapis.com/v0/b/sras-40dfb.appspot.com/o/images%2Ffpt-logo.png15aaf3c3-2c58-4f3e-a5a6-c9b252a55061.png?alt=media&token=24f4e3f0-1ab2-4d33-a335-640f55ef8da0" alt="logo">
+        </div>
+        <div class="header__left-info">
+          
+      <p class="name-conference">Student Research Competition</p>
+      <p class="date">8/31/2023 - 1/12/2024 // TP HCM, Vietnam</p>
+    
+        </div>
+      </div>
+    
+      <div class="header__right">
+        <div class="header__right-logo">
+          <img class="logo" src="https://firebasestorage.googleapis.com/v0/b/sras-40dfb.appspot.com/o/images%2Ffpt-logo.png15aaf3c3-2c58-4f3e-a5a6-c9b252a55061.png?alt=media&token=24f4e3f0-1ab2-4d33-a335-640f55ef8da0" alt="logo">
+        </div>
+      </div>
+    </header>
+    <navbar id="nav"><ul class="nav-list"><li class="nav-list__item"><a href="home.html">Home</a></li><li class="nav-list__item"><a href="about.html">About</a></li><li class="nav-list__item"><a href="committees.html">Committees</a></li><li class="nav-list__item"><a href="authors.html">Authors</a></li></ul></navbar>
+    <div id="content" class="sun-editor-editable"><div><span style="font-size: 24px"><strong>​NEWS AND ANNOUNCEMENTS</strong></span><br></div><div><br></div><div><span style="color: rgb(255, 94, 0);font-size: 18px"><strong>Submission Guidelines for FPTU HCM Student Research Competition 2023 (FU HCM SRC 2023)</strong></span><br>
+<br><span style="font-size: 14px">You can now submit your applications for the FU HCM SRC 2023 through the application submission portal located at</span>: <a href="https://cmt3.research.microsoft.com/ResFes2023/"><span style="color: blue;font-size: 14px">https://cmt3.research.microsoft.com/ResFes2023/</span></a><span style="font-size: 14px">.</span><br>
+<br><span style="font-size: 14px">Teams are kindly requested to adhere to the instructions provided by the BTC (Festival Organizing Committee) for the submission of their topics. The instructions can be accessed via the following link:</span>&nbsp;<a target="_blank" href="https://drive.google.com/file/d/1cg3OexblyDwZiMKwDk-eJvLJ-rRyil1Q/view?usp=drive_link"><span style="font-size: 14px">https://drive.google.com/file/d/1cg3OexblyDwZiMKwDk-eJvLJ-rRyil1Q/view?usp=drive_link</span></a><span style="font-size: 14px">.
+<br>
+</span><br><span style="font-size: 14px">Additionally, we have provided a Latex Template that you can utilize for your submissions. You can find the template within this Google Drive folder:</span>&nbsp;<a href="https://drive.google.com/drive/folders/1cDby9pscIVDvYPy5gecQxrnBZIX1Iljn?usp=drive_link."><span style="font-size: 14px">https://drive.google.com/drive/folders/1cDby9pscIVDvYPy5gecQxrnBZIX1Iljn?usp=drive_link.</span></a>​<br>
+<br><span style="font-size: 14px">For those presenting papers, we have outlined the guidelines to follow. You can access the guidelines document here:</span>&nbsp;<a target="_blank" href="https://drive.google.com/file/d/1cnajKWEzZzCvSIhsp_o7qh4ypv0BpBjU/view?usp=drive_link."><span style="font-size: 14px">https://drive.google.com/file/d/1cnajKWEzZzCvSIhsp_o7qh4ypv0BpBjU/view?usp=drive_link.</span></a>​<br>
+<br><span style="font-size: 18px;color: rgb(255, 94, 0)"><strong>Important Milestones for the FU HCM SRC 2023 that Should Be Noted</strong></span><br><span style="font-size: 14px">Scientific Research Methodology and Presentation Workshop: 18/10/2023
+</span><br><span style="font-size: 14px">Research report Submission: 25/11/2023
+</span><br><span style="font-size: 14px">Topic Evaluation and Rating Coordination: 17/12/2023</span></div><div><span style="font-size: 14px"><br></span></div><div><span style="font-size: 14px"> </span></div><p><span style="color: rgb(255, 94, 0);font-size: 14px"><strong>🎉🎉 </strong></span><span style="font-size: 18px"><span style="color: rgb(255, 94, 0)"><strong>LAUNCH OF FPT
+ EDU RESEARCH FESTIVAL 2023</strong></span></span><span style="color: rgb(255, 94, 0);font-size: 14px"><strong> 🎉🎉</strong></span></p><p><span style="font-size: 14px">Themes: 	
+<br>Registration Period: 	
+<br>Enroll Now:&nbsp;<span style="font-size: 15px"><a href="https://bit.ly/registerFPTEduResFes2023">https://bit.ly/registerFPTEduResFes2023</a></span></span></p><p><span style="font-size: 14px"><a href="https://bit.ly/registerFPTEduResFes2023"></a>To
+ engage in the competition, FPTU HCM students must register either individually
+ or form a team comprising no more than 3 members per team. Teammates can belong
+ to the same academic discipline or engage in cross-disciplinary collaboration<br></span></p><p><span style="font-size: 14px">Important Guidelines<br></span></p><ul><li>Each
+ research project may register for participation in only one specialized
+ sub-committee. Projects that have previously secured prizes in scientific
+ research contests organized by FU HCM or past ResFes FE events are not eligible</li><li><span style="font-size: 14px">Research
+ topics align with the categories below:</span><ul><li>Information Technology</li><li>Digital Art Design - Multimedia Communication</li><li>Economics and Business Administration<br></li><li>Language<br></li></ul></li></ul><div><span style="font-size: 14px">​Contest
+ Regulations:</span></div><ul><li>​Students need to register for participation and submit their research report according to the guidelines outlined by the Organizing Committee.<br></li><li>The evaluation and ranking process will be activated if a sub-committee receives a minimum of 8 or more submissions.</li></ul><div><span style="font-size: 14px">​Awards
+ Structure:</span></div><ul><li><span style="font-size: 14px">​Each sub-committee is allocated a maximum of 4 prizes:<br></span><ul><li>1st Prize: 5,000,000 VND<br></li><li>2nd Prize: 4,000,000 VND<br></li><li>3rd Prize: 3,000,000 VND<br></li><li>Consolation Prize: 1,000,000 VND<br></li></ul></li></ul><div><span style="font-size: 14px">​By
+ participating in FPT Edu ResFes 2023, you will:</span></div><ul><li>​Express your enthusiasm for scientific research<br></li><li>Connect with peers and experts, fostering an exchange of innovative ideas<br></li><li>Gain insights and knowledge through diverse workshops centered around scientific research</li></ul><div><span style="font-size: 14px"> </span></div><p><span style="font-size: 14px">For comprehensive details on how to join FPT Edu ResFes
+ 2023, please refer to the following link: <br><a href="https://drive.google.com/file/d/1cqQWNGXegKZ5fL2FZhKoEc7nnvAqqiuM/view?usp=sharing">https://drive.google.com/file/d/1cqQWNGXegKZ5fL2FZhKoEc7nnvAqqiuM/view?usp=sharing</a></span></p><div><span style="font-size: 14px"> For
+ comprehensive guidelines on presenting your scientific reports, please access: <br></span><a href="https://drive.google.com/file/d/1cnajKWEzZzCvSIhsp_o7qh4ypv0BpBjU/view?usp=drive_link"><span style="font-size: 14px">https://drive.google.com/file/d/1cnajKWEzZzCvSIhsp_o7qh4ypv0BpBjU/view?usp=drive_link</span></a> </div><div>​&nbsp;&nbsp;&nbsp;&nbsp;</div><div> </div></div>
+  </body>
+   </div>
+</html>

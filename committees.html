@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conferences</title>
+    <script src="https://cdn.jsdelivr.net/npm/suneditor@2.45.1/dist/suneditor.min.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/suneditor@2.45.1/dist/css/suneditor.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-image: url("https://icc2023.ieee-icc.org/sites/icc2023.ieee-icc.org/files/conferences2_wallpaper/ccncgradient.jpg");
+      }
+      navbar ul, navbar li {
+        list-style: none;
+        list-style-type: none;
+      }
+      .container {
+        max-width: 1400px;
+        margin: 0 auto;
+      }
+      .logo{
+        object-fit: contain;
+        width: 100%;
+        height: 100%;
+        image-rendering: -webkit-optimize-contrast;
+        background-image: none;
+      }
+      header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #fefefe;
+        padding: 30px;
+      }
+      .header__left {
+        display: flex;
+        align-items: center;
+      }
+      .header__left-logo, .header__right-logo {
+        width: 200px;
+        height: 100px
+      }
+      .header__left-info {
+        margin-left: 24px;
+        font-size: 24px;
+      }
+      .date {
+        margin-bottom: 8px;
+      }
+      .nav {
+        display: 'flex';
+      }
+      .nav-list{
+        display: flex;
+      }
+      .nav-list__item {
+        position: relative;
+        cursor: pointer;
+        background-color: #005f98;
+        color:#fefefe;
+        text-transform: capitalize;
+        font-size: 16px;
+        border-right: 1px solid #fefefe;
+      }
+	  .nav-list__item a {
+        padding: 12px 24px;
+        display: inline-block ;
+      }
+      .nav-list__item:hover {
+        background-color: #00aeef;
+      }
+      .hide-items {
+        display: none;
+        position: absolute;
+        z-index: 2;
+        background-color: #005f98;
+        top: 100%;
+        left: 0;
+        min-width: 200px;
+      }
+      .nav-list__item:hover .hide-items {
+        display: block !important;
+      }
+      .hide-items-dropdown {
+        text-transform: capitalize;
+        background-color: #005f98;
+      }
+      .hide-items-dropdown a{
+        display: block;
+        padding: 10px 15px;
+        font-size: 16px;
+      }
+      .hide-items-dropdown:hover {
+        background-color: #00aeef;
+      }
+      .nav-list__item a, .hide-items-dropdown a {
+        text-decoration: none;
+        color: #fefefe;
+      }
+    </style>
+  </head>
+  <body>
+   <div class="container">
+    <header id="header">
+      <div class="header__left">
+        <div class="header__left-logo">
+          <img class="logo" src="https://firebasestorage.googleapis.com/v0/b/sras-40dfb.appspot.com/o/images%2Ffpt-logo.png15aaf3c3-2c58-4f3e-a5a6-c9b252a55061.png?alt=media&token=24f4e3f0-1ab2-4d33-a335-640f55ef8da0" alt="logo">
+        </div>
+        <div class="header__left-info">
+          
+      <p class="name-conference">Student Research Competition</p>
+      <p class="date">8/31/2023 - 1/12/2024 // TP HCM, Vietnam</p>
+    
+        </div>
+      </div>
+    
+      <div class="header__right">
+        <div class="header__right-logo">
+          <img class="logo" src="https://firebasestorage.googleapis.com/v0/b/sras-40dfb.appspot.com/o/images%2Ffpt-logo.png15aaf3c3-2c58-4f3e-a5a6-c9b252a55061.png?alt=media&token=24f4e3f0-1ab2-4d33-a335-640f55ef8da0" alt="logo">
+        </div>
+      </div>
+    </header>
+    <navbar id="nav"><ul class="nav-list"><li class="nav-list__item"><a href="home.html">Home</a></li><li class="nav-list__item"><a href="about.html">About</a></li><li class="nav-list__item"><a href="committees.html">Committees</a></li><li class="nav-list__item"><a href="authors.html">Authors</a></li></ul></navbar>
+    <div id="content" class="sun-editor-editable"><div>​<span style="font-size:15px">Organizing
+ Committee</span></div><ul><li>​<span style="font-size:15px">Dr.
+ Tran Ngoc Tuan: General Chair</span><br></li><li>​<span style="font-size:15px">Mr.
+ Tran Tuan Anh: Executive Co-Chairs</span>​<br></li><li><span style="font-size:15px">Dr.
+ Dang Ngoc Minh Duc: Executive Co-Chairs</span></li><li><span style="font-size:15px">Mrs.
+ Nguyen Thi Thanh Thuy: Publicity Chair</span></li></ul><div>​<span style="font-size:15px">Technical
+ Program Committee</span></div><ul><li><!--[if !supportLists]--><span style="font-size:15px">Dr.
+ Nguyen Tuan Cuong: ITS – FPTU HCMC</span>​</li><li><!--[if !supportLists]--><span style="font-size:15px">Dr. Le
+ Thi My Danh: MC – FPTU HCMC</span>​</li><li>​<span style="font-size:15px">Dr.
+ Nguyen Thi Ai Thy: Biz – FPTU HCMC</span>​<br></li><li><span style="font-size:15px">Dr.
+ Nguyen Hoang Bao Nguyen: LIN – FPTU HCMC</span></li></ul></div>
+  </body>
+   </div>
+</html>
